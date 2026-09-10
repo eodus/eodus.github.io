@@ -24,7 +24,7 @@
         <id>https://eodus.github.io/posts/ai-mid-memory/</id>
         
         <content type="html" xml:base="https://eodus.github.io/posts/ai-mid-memory/">&lt;!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 38f6b859 --&gt;
+     Source revision: b7e57b5b --&gt;
 &lt;h1 id=&quot;introduction&quot; class=&quot;intro-toc-heading&quot;&gt;Introduction&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;strong&gt;Sasha Shlemov&lt;&#x2F;strong&gt;, with &lt;strong&gt;Drinkins, personal AI assistant&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR:&lt;&#x2F;strong&gt; We present a cross-session continuity mechanism and a
@@ -2248,7 +2248,7 @@ Operation Log&lt;&#x2F;span&gt;&lt;&#x2F;em&gt;. (2026). Available:
 &lt;p&gt;&lt;span class=&quot;csl-left-margin&quot;&gt;[2]
 &lt;&#x2F;span&gt;&lt;span class=&quot;csl-right-inline&quot;&gt;Zed Industries and contributors,
 &lt;em&gt;Zed Agent Thread Database&lt;&#x2F;em&gt;. (2026). Available:
-&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;blob&#x2F;main&#x2F;crates&#x2F;agent&#x2F;src&#x2F;db.rs&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;blob&#x2F;main&#x2F;crates&#x2F;agent&#x2F;src&#x2F;db.rs&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;blob&#x2F;52b2927a1bac46be5d50ad341ac00b665e13764b&#x2F;crates&#x2F;agent&#x2F;src&#x2F;db.rs&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;blob&#x2F;52b2927a1bac46be5d50ad341ac00b665e13764b&#x2F;crates&#x2F;agent&#x2F;src&#x2F;db.rs&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div id=&quot;ref-anthropic2026projectmemory&quot; class=&quot;csl-entry&quot;&gt;
 &lt;p&gt;&lt;span class=&quot;csl-left-margin&quot;&gt;[3]
@@ -2274,7 +2274,7 @@ instructions in VS Code.” [Online]. Available:
 &lt;&#x2F;span&gt;&lt;span class=&quot;csl-right-inline&quot;&gt;Microsoft and VS Code
 contributors, &lt;em&gt;VS Code Copilot Agent Prompt Assembly&lt;&#x2F;em&gt;. (2026).
 Available:
-&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;blob&#x2F;main&#x2F;extensions&#x2F;copilot&#x2F;src&#x2F;extension&#x2F;prompts&#x2F;node&#x2F;agent&#x2F;agentPrompt.tsx&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;blob&#x2F;main&#x2F;extensions&#x2F;copilot&#x2F;src&#x2F;extension&#x2F;prompts&#x2F;node&#x2F;agent&#x2F;agentPrompt.tsx&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;blob&#x2F;13fa06a39cabd0b59ca007ffd356d14998b983ff&#x2F;extensions&#x2F;copilot&#x2F;src&#x2F;extension&#x2F;prompts&#x2F;node&#x2F;agent&#x2F;agentPrompt.tsx&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;blob&#x2F;13fa06a39cabd0b59ca007ffd356d14998b983ff&#x2F;extensions&#x2F;copilot&#x2F;src&#x2F;extension&#x2F;prompts&#x2F;node&#x2F;agent&#x2F;agentPrompt.tsx&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div id=&quot;ref-zed2026agentsmd&quot; class=&quot;csl-entry&quot;&gt;
 &lt;p&gt;&lt;span class=&quot;csl-left-margin&quot;&gt;[7]
@@ -2287,7 +2287,7 @@ templates&lt;&#x2F;em&gt;. (2026). Available:
 &lt;p&gt;&lt;span class=&quot;csl-left-margin&quot;&gt;[8]
 &lt;&#x2F;span&gt;&lt;span class=&quot;csl-right-inline&quot;&gt;Zed Industries and contributors,
 &lt;em&gt;Zed Agent System-Prompt Assembly&lt;&#x2F;em&gt;. (2026). Available:
-&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;blob&#x2F;main&#x2F;crates&#x2F;agent&#x2F;src&#x2F;thread.rs&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;blob&#x2F;main&#x2F;crates&#x2F;agent&#x2F;src&#x2F;thread.rs&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;blob&#x2F;52b2927a1bac46be5d50ad341ac00b665e13764b&#x2F;crates&#x2F;agent&#x2F;src&#x2F;thread.rs&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;blob&#x2F;52b2927a1bac46be5d50ad341ac00b665e13764b&#x2F;crates&#x2F;agent&#x2F;src&#x2F;thread.rs&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div id=&quot;ref-anthropic2026promptcaching&quot; class=&quot;csl-entry&quot;&gt;
 &lt;p&gt;&lt;span class=&quot;csl-left-margin&quot;&gt;[9]

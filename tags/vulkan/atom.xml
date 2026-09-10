@@ -24,7 +24,7 @@
         <id>https://eodus.github.io/posts/llm-binarization-episode-01-dbf/</id>
         
         <content type="html" xml:base="https://eodus.github.io/posts/llm-binarization-episode-01-dbf/">&lt;!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 38f6b859 --&gt;
+     Source revision: b7e57b5b --&gt;
 &lt;h1 id=&quot;introduction&quot; class=&quot;intro-toc-heading&quot;&gt;Introduction&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;strong&gt;Sasha Shlemov&lt;&#x2F;strong&gt;, with &lt;strong&gt;Drinkins, personal AI assistant&lt;&#x2F;strong&gt; ·
 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;eodus&#x2F;sign1-llama.cpp&quot;&gt;Runtime&lt;&#x2F;a&gt; · &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;eodus&#x2F;dbf-sign1&quot;&gt;Scripts and

@@ -53,6 +53,43 @@
     .toc a { color: #555; text-decoration: none; }
     .toc a:hover { color: #0366d6; text-decoration: underline; }
     .toc-mobile { display: none; }
+    .site-nav { display: flex; align-items: center; gap: 1rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.85rem; }
+    .site-nav a { margin: 0; text-decoration: none; }
+    .site-nav a:first-child { margin-right: auto; color: #222; }
+    .post-page .site-nav { max-width: 1360px; }
+    .hero { margin: 4.5rem 0 4rem; }
+    .hero-kicker { color: #57606a; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
+    .hero h1 { max-width: 680px; margin: 0.45rem 0 1rem; font-size: clamp(2.5rem, 7vw, 4.6rem); line-height: 1.02; letter-spacing: -0.045em; }
+    .hero-lead { max-width: 650px; margin: 0; color: #444; font-size: 1.22rem; line-height: 1.55; }
+    .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin: 3rem 0 1.25rem; }
+    .section-heading h2 { margin: 0; }
+    .section-heading a { font-size: 0.9rem; }
+    .post-list { display: grid; gap: 1rem; }
+    .post-card { position: relative; padding: 1.25rem 1.35rem; border: 1px solid #d8dee4; border-radius: 10px; background: #fff; transition: border-color 120ms ease, transform 120ms ease, box-shadow 120ms ease; }
+    .post-card:hover { border-color: #9fb6d0; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(31, 35, 40, 0.07); }
+    .post-card h2, .post-card h3 { margin: 0.2rem 0 0.45rem; line-height: 1.25; }
+    .post-card h2 { font-size: 1.45rem; }
+    .post-card h3 { font-size: 1.25rem; }
+    .post-card h2 a, .post-card h3 a { color: #222; text-decoration: none; }
+    .post-card h2 a:hover, .post-card h3 a:hover { color: #0366d6; }
+    .post-card h2 a::after, .post-card h3 a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
+    .post-card .tag, .post-card .featured-image { position: relative; z-index: 2; }
+    .post-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 0.65rem; }
+    .post-description { margin: 0.75rem 0 0; color: #444; }
+    .tag-list { display: inline-flex; flex-wrap: wrap; gap: 0.38rem; }
+    .tag { display: inline-block; padding: 0.14rem 0.48rem; border-radius: 999px; background: #eef4fb; color: #305d8c; font-size: 0.76rem; line-height: 1.45; text-decoration: none; }
+    .tag:hover { background: #dceafb; color: #174f86; }
+    .tag-cloud { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.55rem 0.7rem; padding: 1.1rem 1.2rem; border: 1px solid #d8dee4; border-radius: 10px; background: #f6f8fa; }
+    .tag-cloud a { text-decoration: none; }
+    .tag-cloud .tag-count { color: #6e7781; font-size: 0.72em; }
+    .all-posts-intro { color: #57606a; margin-bottom: 1.5rem; }
+    .featured-post { padding: 0; overflow: hidden; }
+    .featured-image { display: block; background: #0b1220; }
+    .featured-image img { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 627; object-fit: cover; }
+    .featured-post .post-card-body { padding: 1.25rem 1.35rem 1.35rem; }
+    .site-footer { max-width: 720px; margin: 4rem auto 1rem; padding-top: 1.25rem; border-top: 1px solid #e5e7eb; color: #6e7781; font-size: 0.85rem; }
+    .site-footer p { margin: 0; }
+    .post-page .site-footer { max-width: 1360px; }
     @media (max-width: 1320px) {
       body { max-width: 752px; }
       .post-layout { display: block; }
@@ -71,31 +108,36 @@
     }
   </style>
 </head>
-<body>
-  <nav>
-    <a href="/blog/"><strong>Sasha Shlemov</strong></a>
-    <a href="/blog/posts/">Posts</a>
+<body class="">
+  <nav class="site-nav">
+    <a href="/"><strong>Sasha Shlemov</strong></a>
+    <a href="/posts/">Posts</a>
     <a href="https://github.com/eodus">GitHub</a>
     <a href="https://www.linkedin.com/in/shlemovalex/">LinkedIn</a>
   </nav>
   <main class="content">
     
 <h1>working-practices</h1>
+<div class="post-list">
 
-<article>
+<article class="post-card">
+  <time class="post-date" datetime="2026-09-09">2026-09-09</time>
   <h2><a href="https:&#x2F;&#x2F;eodus.github.io&#x2F;posts&#x2F;give-your-ai-a-watch&#x2F;">Give Your AI a Watch</a></h2>
-  <span class="post-date">2026-09-09</span>
-  <p>Why AI agents need persisted message time outside the system prompt.</p>
+  <p class="post-description">Why AI agents need persisted message time outside the system prompt.</p>
 </article>
 
-<article>
+<article class="post-card">
+  <time class="post-date" datetime="2026-08-29">2026-08-29</time>
   <h2><a href="https:&#x2F;&#x2F;eodus.github.io&#x2F;posts&#x2F;ai-mid-memory&#x2F;">AI Mid-Memory: From a Goldfish to a Personal Assistant Worth Naming</a></h2>
-  <span class="post-date">2026-08-29</span>
-  <p>A practical system for recovering AI sessions, maintaining reviewed memory, reusing concrete workflows, preserving provenance, and evolving an operating contract.</p>
+  <p class="post-description">A practical system for recovering AI sessions, maintaining reviewed memory, reusing concrete workflows, preserving provenance, and evolving an operating contract.</p>
 </article>
 
+</div>
 
   </main>
+  <footer class="site-footer">
+    <p>Sasha Shlemov, writing with Drinkins, personal AI assistant.</p>
+  </footer>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
     onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]})"></script>
