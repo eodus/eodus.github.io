@@ -3,7 +3,7 @@
 {% block content %}
 <section class="hero">
   <div class="hero-kicker">AI and nearby</div>
-  <h1>Ideas should survive the chat window.</h1>
+  <h1>Ideas should survive the chat window</h1>
   <p class="hero-lead">{{ section.content | safe }}</p>
 </section>
 
@@ -40,16 +40,10 @@
 
 {% set tags = get_taxonomy(kind="tags") %}
 {% if tags.items %}
-<section aria-labelledby="topics-heading">
-  <div class="section-heading">
-    <h2 id="topics-heading">Topics</h2>
-    <a href="{{ get_url(path='tags') }}">All tags</a>
-  </div>
-  <div class="tag-cloud">
-    {% for term in tags.items %}
-      <a class="tag" href="{{ term.permalink }}">{{ term.name }} <span class="tag-count">{{ term.pages | length }}</span></a>
-    {% endfor %}
-  </div>
-</section>
+<div class="tag-cloud home-tag-cloud" aria-label="Topics">
+  {% for term in tags.items %}
+    <a class="tag" href="{{ term.permalink }}">{{ term.name }} <span class="tag-count">{{ term.pages | length }}</span></a>
+  {% endfor %}
+</div>
 {% endif %}
 {% endblock %}
