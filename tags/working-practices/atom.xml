@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title>Sasha Shlemov - working-practices</title>
+    <title>Sasha Shlemov - working practices</title>
     <subtitle>Math, code, AI compression.</subtitle>
     <link rel="self" type="application/atom+xml" href="https://eodus.github.io/tags/working-practices/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://eodus.github.io"/>
@@ -24,7 +24,7 @@
         <id>https://eodus.github.io/posts/give-your-ai-a-watch/</id>
         
         <content type="html" xml:base="https://eodus.github.io/posts/give-your-ai-a-watch/">&lt;!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: b7e57b5b --&gt;
+     Source revision: 18692f72 --&gt;
 &lt;h1 id=&quot;introduction&quot; class=&quot;intro-toc-heading&quot;&gt;Introduction&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;strong&gt;Sasha Shlemov&lt;&#x2F;strong&gt;, with &lt;strong&gt;Drinkins, personal AI assistant&lt;&#x2F;strong&gt; · &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;pull&#x2F;63987&quot;&gt;Zed PR&lt;&#x2F;a&gt; · &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;issues&#x2F;314377&quot;&gt;VS Code feature request&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR:&lt;&#x2F;strong&gt; Record each user message’s creation time and original UTC
