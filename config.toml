@@ -1,4 +1,4 @@
-base_url = "https://eodus.github.io/blog"
+base_url = "https://eodus.github.io"
 title = "Sasha Shlemov"
 description = "Math, code, AI compression."
 default_language = "en"
