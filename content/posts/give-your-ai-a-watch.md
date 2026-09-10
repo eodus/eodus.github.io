@@ -5,7 +5,7 @@ description = "Why AI agents need persisted message time outside the system prom
 slug = "give-your-ai-a-watch"
 template = "post.html"
 [taxonomies]
-tags = ["ai", "software-engineering", "working-practices", "vs code", "zed"]
+tags = ["software engineering", "working practices", "vs code", "zed"]
 [extra]
 kind = "engineering-practice"
 status = "draft"
@@ -13,7 +13,7 @@ card_image = "images/give-your-ai-a-watch-card.png"
 card_alt = "Two timestamped messages flow into a watch: persisted time becomes AI context."
 +++
 <!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: b7e57b5b -->
+     Source revision: 18692f72 -->
 # Introduction {.intro-toc-heading}
 
 **Sasha Shlemov**, with **Drinkins, personal AI assistant** · [Zed PR](https://github.com/zed-industries/zed/pull/63987) · [VS Code feature request](https://github.com/microsoft/vscode/issues/314377)

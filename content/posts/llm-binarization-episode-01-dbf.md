@@ -5,7 +5,7 @@ description = "A runnable DBF/SIGN1 model: near-Q3_K quality at a slightly small
 slug = "llm-binarization-episode-01-dbf"
 template = "post.html"
 [taxonomies]
-tags = ["binary-models", "local models", "quantization", "llama.cpp", "vulkan", "research"]
+tags = ["binary models", "local models", "quantization", "llama.cpp", "vulkan", "CUDA", "research"]
 [extra]
 kind = "technical-report"
 status = "result"

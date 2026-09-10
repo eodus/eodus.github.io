@@ -5,7 +5,7 @@ description = "A practical system for recovering AI sessions, maintaining review
 slug = "ai-mid-memory"
 template = "post.html"
 [taxonomies]
-tags = ["ai", "memory", "software-engineering", "working-practices", "vs code", "zed"]
+tags = ["memory", "software engineering", "working practices", "vs code", "zed"]
 [extra]
 kind = "engineering-practice"
 status = "article"
