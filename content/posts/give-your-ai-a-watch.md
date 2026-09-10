@@ -11,7 +11,7 @@ kind = "engineering-practice"
 status = "draft"
 +++
 <!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 3f6a1cfc -->
+     Source revision: bbea21b2 -->
 # Introduction {.intro-toc-heading}
 
 **Sasha Shlemov**, with **Drinkins, personal AI assistant**
@@ -152,7 +152,7 @@ per-turn current datetime context*. (Apr. 17, 2026). Accessed: Sep. 09,
 </span><span class="csl-right-inline">S. Shlemov and Drinkins, *VS Code
 configurable time, weekday, and timezone patch*. (Sep. 09, 2026).
 Accessed: Sep. 09, 2026. \[Online\]. Available:
-<https://eodus.github.io/blog/patches/vscode-time-context.patch></span>
+<https://eodus.github.io/patches/vscode-time-context.patch></span>
 
 </div>
 
