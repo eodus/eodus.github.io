@@ -5,13 +5,15 @@ description = "A practical system for recovering AI sessions, maintaining review
 slug = "ai-mid-memory"
 template = "post.html"
 [taxonomies]
-tags = ["ai", "memory", "software-engineering", "working-practices"]
+tags = ["ai", "memory", "software-engineering", "working-practices", "vs code", "zed"]
 [extra]
 kind = "engineering-practice"
 status = "article"
+card_image = "images/ai-mid-memory-card.png"
+card_alt = "A session becomes cumulative work through journal, memory, and stronger artifacts."
 +++
 <!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 38f6b859 -->
+     Source revision: b7e57b5b -->
 # Introduction {.intro-toc-heading}
 
 **Sasha Shlemov**, with **Drinkins, personal AI assistant**
@@ -2499,7 +2501,7 @@ Operation Log</span>*. (2026). Available:
 <span class="csl-left-margin">\[2\]
 </span><span class="csl-right-inline">Zed Industries and contributors,
 *Zed Agent Thread Database*. (2026). Available:
-<https://github.com/zed-industries/zed/blob/main/crates/agent/src/db.rs></span>
+<https://github.com/zed-industries/zed/blob/52b2927a1bac46be5d50ad341ac00b665e13764b/crates/agent/src/db.rs></span>
 
 </div>
 
@@ -2537,7 +2539,7 @@ instructions in VS Code.” \[Online\]. Available:
 </span><span class="csl-right-inline">Microsoft and VS Code
 contributors, *VS Code Copilot Agent Prompt Assembly*. (2026).
 Available:
-<https://github.com/microsoft/vscode/blob/main/extensions/copilot/src/extension/prompts/node/agent/agentPrompt.tsx></span>
+<https://github.com/microsoft/vscode/blob/13fa06a39cabd0b59ca007ffd356d14998b983ff/extensions/copilot/src/extension/prompts/node/agent/agentPrompt.tsx></span>
 
 </div>
 
@@ -2556,7 +2558,7 @@ templates*. (2026). Available:
 <span class="csl-left-margin">\[8\]
 </span><span class="csl-right-inline">Zed Industries and contributors,
 *Zed Agent System-Prompt Assembly*. (2026). Available:
-<https://github.com/zed-industries/zed/blob/main/crates/agent/src/thread.rs></span>
+<https://github.com/zed-industries/zed/blob/52b2927a1bac46be5d50ad341ac00b665e13764b/crates/agent/src/thread.rs></span>
 
 </div>
 

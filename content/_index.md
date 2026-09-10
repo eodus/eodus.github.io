@@ -4,4 +4,4 @@ sort_by = "date"
 paginate_by = 10
 +++
 
-Mathematics, code, and thoughts on AI compression.
+I am Sasha Shlemov, a software engineer building Microsoft Excel itself. This is where my AI assistant and I write about AI working practices, engineering experiments, model systems, and whatever interesting problem happens to live nearby.

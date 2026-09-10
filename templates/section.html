@@ -1,12 +1,30 @@
 {% extends "base.html" %}
-{% block title %}{{ section.title }}{% endblock %}
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock %}
 {% block content %}
 <h1>{{ section.title }}</h1>
+<p class="all-posts-intro">Engineering stories, experiments, and working practices.</p>
+{% set tags = get_taxonomy(kind="tags") %}
+{% if tags.items %}
+<div class="tag-cloud" aria-label="Topics">
+  {% for term in tags.items %}
+    <a class="tag" href="{{ term.permalink }}">{{ term.name }} <span class="tag-count">{{ term.pages | length }}</span></a>
+  {% endfor %}
+</div>
+{% endif %}
+<div class="post-list" style="margin-top: 1.5rem">
 {% for page in section.pages %}
-<article>
+<article class="post-card">
+  <div class="post-meta">
+    <time class="post-date" datetime="{{ page.date }}">{{ page.date }}</time>
+    {% if page.taxonomies.tags %}
+    <span class="tag-list">
+      {% for tag in page.taxonomies.tags %}<a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">{{ tag }}</a>{% endfor %}
+    </span>
+    {% endif %}
+  </div>
   <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-  <span class="post-date">{{ page.date }}</span>
-  {% if page.summary %}<p>{{ page.summary | safe }}</p>{% endif %}
+  {% if page.description %}<p class="post-description">{{ page.description }}</p>{% elif page.summary %}<p class="post-description">{{ page.summary | safe }}</p>{% endif %}
 </article>
 {% endfor %}
+</div>
 {% endblock %}

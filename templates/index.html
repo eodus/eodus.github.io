@@ -1,12 +1,55 @@
 {% extends "base.html" %}
+{% block title %}{{ config.title }}{% endblock %}
 {% block content %}
-<h1>{{ section.title }}</h1>
-<p>{{ section.content | safe }}</p>
-{% for page in section.pages %}
-<article>
-  <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-  <span class="post-date">{{ page.date }}</span>
-  {% if page.summary %}<p>{{ page.summary | safe }}</p>{% endif %}
-</article>
-{% endfor %}
+<section class="hero">
+  <div class="hero-kicker">AI and nearby</div>
+  <h1>Ideas should survive the chat window.</h1>
+  <p class="hero-lead">{{ section.content | safe }}</p>
+</section>
+
+{% set posts_section = get_section(path="posts/_index.md") %}
+<section aria-labelledby="recent-heading">
+  <div class="section-heading">
+    <h2 id="recent-heading">Recent writing</h2>
+    <a href="{{ get_url(path='posts') }}">All posts</a>
+  </div>
+  <div class="post-list home-post-list">
+    {% for page in posts_section.pages %}
+    <article class="post-card featured-post">
+      {% if page.extra.card_image %}
+      <a class="featured-image" href="{{ page.permalink }}" aria-label="Read {{ page.title }}">
+        <img src="{{ get_url(path=page.extra.card_image) }}" alt="{{ page.extra.card_alt }}">
+      </a>
+      {% endif %}
+      <div class="post-card-body">
+        <div class="post-meta">
+          <time class="post-date" datetime="{{ page.date }}">{{ page.date }}</time>
+          {% if page.taxonomies.tags %}
+          <span class="tag-list">
+            {% for tag in page.taxonomies.tags %}<a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">{{ tag }}</a>{% endfor %}
+          </span>
+          {% endif %}
+        </div>
+        <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+        {% if page.description %}<p class="post-description">{{ page.description }}</p>{% elif page.summary %}<p class="post-description">{{ page.summary | safe }}</p>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% set tags = get_taxonomy(kind="tags") %}
+{% if tags.items %}
+<section aria-labelledby="topics-heading">
+  <div class="section-heading">
+    <h2 id="topics-heading">Topics</h2>
+    <a href="{{ get_url(path='tags') }}">All tags</a>
+  </div>
+  <div class="tag-cloud">
+    {% for term in tags.items %}
+      <a class="tag" href="{{ term.permalink }}">{{ term.name }} <span class="tag-count">{{ term.pages | length }}</span></a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 {% endblock %}

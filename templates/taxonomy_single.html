@@ -2,11 +2,13 @@
 {% block title %}{{ term.name }} · {{ config.title }}{% endblock %}
 {% block content %}
 <h1>{{ term.name }}</h1>
+<div class="post-list">
 {% for page in term.pages %}
-<article>
+<article class="post-card">
+  <time class="post-date" datetime="{{ page.date }}">{{ page.date }}</time>
   <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-  <span class="post-date">{{ page.date }}</span>
-  {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
 </article>
 {% endfor %}
+</div>
 {% endblock %}

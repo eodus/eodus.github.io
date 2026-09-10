@@ -5,13 +5,15 @@ description = "A runnable DBF/SIGN1 model: near-Q3_K quality at a slightly small
 slug = "llm-binarization-episode-01-dbf"
 template = "post.html"
 [taxonomies]
-tags = ["binary-models", "quantization", "llama.cpp", "vulkan", "research"]
+tags = ["binary-models", "local models", "quantization", "llama.cpp", "vulkan", "research"]
 [extra]
 kind = "technical-report"
 status = "result"
+card_image = "images/dbf-episode-01-card.png"
+card_alt = "DBF factorization and measured size, model quality, and Vulkan speed results."
 +++
 <!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 38f6b859 -->
+     Source revision: b7e57b5b -->
 # Introduction {.intro-toc-heading}
 
 **Sasha Shlemov**, with **Drinkins, personal AI assistant** ·

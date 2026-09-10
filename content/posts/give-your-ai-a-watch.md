@@ -5,16 +5,18 @@ description = "Why AI agents need persisted message time outside the system prom
 slug = "give-your-ai-a-watch"
 template = "post.html"
 [taxonomies]
-tags = ["ai", "software-engineering", "working-practices", "zed"]
+tags = ["ai", "software-engineering", "working-practices", "vs code", "zed"]
 [extra]
 kind = "engineering-practice"
 status = "draft"
+card_image = "images/give-your-ai-a-watch-card.png"
+card_alt = "Two timestamped messages flow into a watch: persisted time becomes AI context."
 +++
 <!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: bbea21b2 -->
+     Source revision: b7e57b5b -->
 # Introduction {.intro-toc-heading}
 
-**Sasha Shlemov**, with **Drinkins, personal AI assistant**
+**Sasha Shlemov**, with **Drinkins, personal AI assistant** · [Zed PR](https://github.com/zed-industries/zed/pull/63987) · [VS Code feature request](https://github.com/microsoft/vscode/issues/314377)
 
 **TL;DR:** Record each user message’s creation time and original UTC
 offset once, persist it with the thread, and supply it beside that
