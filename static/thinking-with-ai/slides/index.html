@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What Are You Asking AI For? — Sasha Shlemov</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="vendor/reveal/reveal.css">
+
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section
+        data-markdown="slides.md"
+        data-separator="^---$"
+        data-separator-vertical="^--$"
+        data-separator-notes="^Note:$"
+        data-charset="utf-8">
+      </section>
+    </div>
+  </div>
+
+  <script src="vendor/reveal/reveal.js"></script>
+  <script src="vendor/reveal/plugin/markdown.js"></script>
+  <script src="vendor/reveal/plugin/notes.js"></script>
+  <script src="vendor/reveal/plugin/zoom.js"></script>
+  <script>
+    const deckConfig = Object.freeze({
+      showTitleSlideNumber: false,
+    });
+    window.deckConfig = deckConfig;
+    document.documentElement.classList.toggle('hide-title-slide-number', !deckConfig.showTitleSlideNumber);
+
+    const formatSlideNumber = (slide) => {
+      const slides = Reveal.getHorizontalSlides();
+      return [slides.indexOf(slide) + 1, '/', slides.length];
+    };
+
+    const installSpringFrames = () => {
+      for (const slide of document.querySelectorAll('.slides section[data-spring-layout]')) {
+        if (slide.querySelector(':scope > .spring-frame')) continue;
+        const children = Array.from(slide.children);
+        const eyebrow = children.find((element) => element.classList.contains('eyebrow'));
+        const heading = children.find((element) => element.matches('h2'));
+        const conclusion = children.find((element) => element.classList.contains('bottom-line'));
+        if (!eyebrow || !heading || !conclusion) throw new Error('Spring-layout slide requires direct eyebrow, h2, and bottom-line children');
+        const headingIndex = children.indexOf(heading);
+        const conclusionIndex = children.indexOf(conclusion);
+        const content = children.slice(headingIndex + 1, conclusionIndex).filter((element) => !element.matches('aside.notes'));
+        if (!content.length) throw new Error('Spring-layout slide requires content between h2 and bottom-line');
+
+        const frame = document.createElement('div');
+        frame.className = 'spring-frame';
+        const body = document.createElement('div');
+        body.className = 'spring-body';
+        body.append(...content);
+        frame.append(eyebrow, heading, body, conclusion);
+        slide.insertBefore(frame, slide.querySelector(':scope > aside.notes'));
+      }
+      Reveal.sync();
+    };
+
+    Reveal.on('ready', installSpringFrames);
+
+    Reveal.on('pdf-ready', () => {
+      const counters = Array.from(document.querySelectorAll('.slide-number-pdf'));
+      const total = counters.length;
+      counters.forEach((counter, index) => {
+        counter.textContent = `${index + 1}/${total}`;
+        counter.style.display = index === 0 && !deckConfig.showTitleSlideNumber ? 'none' : '';
+      });
+    });
+
+    Reveal.initialize({
+      width: 1280,
+      height: 720,
+      margin: 0.035,
+      minScale: 0.2,
+      maxScale: 2,
+      scrollActivationWidth: 0,
+      hash: true,
+      controls: true,
+      controlsTutorial: false,
+      progress: true,
+      slideNumber: formatSlideNumber,
+      showSlideNumber: 'all',
+      center: false,
+      transition: 'fade',
+      transitionSpeed: 'fast',
+      backgroundTransition: 'fade',
+      autoAnimateEasing: 'ease-out',
+      autoAnimateDuration: 0.65,
+      pdfSeparateFragments: false,
+      pdfMaxPagesPerSlide: 1,
+      plugins: [RevealMarkdown, RevealNotes, RevealZoom]
+    });
+  </script>
+</body>
+</html>
