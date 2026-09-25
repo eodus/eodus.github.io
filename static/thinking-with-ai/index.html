@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thinking with AI — Abelard, fact-checking, and epistemic honesty</title>
+  <link rel="icon" href="assets/thinking-with-ai-qr.svg" type="image/svg+xml">
+  <style>
+    :root { color-scheme: dark; --bg:#07111f; --panel:#111827; --line:#334155; --text:#f8fafc; --soft:#cbd5e1; --muted:#94a3b8; --cyan:#38bdf8; --violet:#818cf8; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:linear-gradient(135deg,var(--bg),#172554); color:var(--text); font:18px/1.55 system-ui,sans-serif; }
+    main { width:min(960px,calc(100% - 32px)); margin:auto; padding:64px 0 96px; }
+    h1 { max-width:780px; margin:0 0 16px; font-size:clamp(42px,7vw,76px); line-height:1; letter-spacing:-.04em; }
+    h2 { margin-top:0; font-size:30px; }
+    .lede { max-width:760px; color:var(--soft); font-size:22px; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:42px; }
+    article { padding:28px; border:2px solid var(--line); border-radius:22px; background:rgba(17,24,39,.82); }
+    article:nth-child(1) { border-color:var(--cyan); } article:nth-child(2) { border-color:var(--violet); } article:nth-child(3) { border-color:#34d399; }
+    pre { max-height:440px; padding:18px; overflow:auto; border-radius:14px; background:#020617; color:var(--soft); font:14px/1.5 ui-monospace,monospace; white-space:pre-wrap; }
+    button,a.download { display:inline-block; margin:8px 8px 0 0; padding:10px 15px; border:1px solid var(--cyan); border-radius:999px; background:rgba(56,189,248,.12); color:var(--text); font:700 15px system-ui,sans-serif; text-decoration:none; cursor:pointer; }
+    .supplementary { margin-top:38px; padding:24px 28px; border:2px solid var(--violet); border-radius:22px; background:rgba(49,46,129,.22); }
+    .supplementary h2 { margin-bottom:8px; }
+    .supplementary p { max-width:780px; margin:0; color:var(--soft); }
+    .qr { display:flex; align-items:center; gap:24px; margin-top:38px; padding:22px; border:1px solid var(--line); border-radius:20px; background:rgba(17,24,39,.55); }
+    .qr img { width:150px; height:150px; border-radius:10px; }
+    .qr p { margin:0; overflow-wrap:anywhere; }
+    .sources { margin-top:48px; padding-top:24px; border-top:1px solid var(--line); color:var(--soft); }
+    .sources li { margin:8px 0; } a { color:#7dd3fc; }
+    footer { margin-top:48px; color:var(--muted); }
+    @media (max-width:760px) { main{padding-top:38px}.grid{grid-template-columns:1fr}article{padding:21px} }
+  </style>
+</head>
+<body>
+<main>
+  <p>TAKE-HOME MATERIAL</p>
+  <h1>Thinking with AI</h1>
+  <p class="lede">Slides, one broad instruction, and two on-demand procedures. Use the procedures as ordinary prompts or install the files in a client that supports instructions and SKILLs.</p>
+  <p><a class="download" href="slides.pdf" download>Download slides (PDF)</a></p>
+
+  <section class="grid">
+    <article>
+      <h2>Epistemic honesty</h2>
+      <p>Broad instructions for separating knowledge, inference, and uncertainty.</p>
+      <pre id="honesty">Label material claims as known, inferred, or unknown, and keep unresolved uncertainty visible. Test premises; verify sources, wording, entailment, scope, and date. Search for the strongest contrary evidence. Name what would change the answer. Seek external verification through independent review, reproduction, or experiment. When wrong, acknowledge the error, analyze it, record the lesson, and continue.</pre>
+      <button data-copy="honesty">Copy prompt</button>
+      <a class="download" href="epistemic-honesty.instructions.md" download>Download instructions</a>
+    </article>
+
+    <article>
+      <h2>Abelard</h2>
+      <p>An on-demand adversarial test for a position or artifact.</p>
+      <pre id="abelard">Given the position or artifact below and its intended purpose: attack it with the strongest specific counterarguments; triage each objection as lands, straw man, or valid but addressed; synthesize a position that preserves the valid parts of both sides; and attack the synthesis once more. If it fails, iterate. State what would change the result.</pre>
+      <button data-copy="abelard">Copy prompt</button>
+      <a class="download" href="abelard/SKILL.md" download>Download SKILL.md</a>
+    </article>
+
+    <article>
+      <h2>Fact-check</h2>
+      <p>An on-demand claim ledger: source, entailment, contrary evidence, and uncertainty.</p>
+      <pre id="factcheck">Separate the material facts, inferences, opinions, and quotations. For each factual claim, verify the source, wording, entailment, scope, and date. Search for the strongest contrary evidence. Mark each claim verified, contradicted, mixed, or unsupported. Preserve uncertainty and propose the smallest accurate correction.</pre>
+      <button data-copy="factcheck">Copy prompt</button>
+      <a class="download" href="fact-check/SKILL.md" download>Download SKILL.md</a>
+    </article>
+  </section>
+
+  <section class="supplementary">
+    <h2>Four independent chats — full logs</h2>
+    <p>Complete prompts and verbatim outputs from the neutral/multipositional, optimistic, skeptical, and parodic register experiment. The visible service was anonymous ChatGPT; exact model, routing, hidden prompt, and sampling configuration were not exposed.</p>
+    <a class="download" href="register-framing-logs.md" target="_blank" rel="noopener">Open full logs</a>
+    <a class="download" href="register-framing-logs.md" download>Download logs</a>
+  </section>
+
+  <section class="qr">
+    <a href="https://eodus.github.io/thinking-with-ai/" aria-label="Open the canonical Thinking with AI page">
+      <img src="assets/thinking-with-ai-qr.svg" alt="QR code for https://eodus.github.io/thinking-with-ai/">
+    </a>
+    <p>Canonical address:<br><a href="https://eodus.github.io/thinking-with-ai/">https://eodus.github.io/thinking-with-ai/</a></p>
+  </section>
+
+  <section class="sources">
+    <h2>Sources and further reading</h2>
+    <ol>
+      <li>OpenAI, <a href="https://github.com/openai/harmony/blob/main/docs/format.md">Harmony response format</a> — published roles, message-boundary tokens, and stop tokens.</li>
+      <li>Daniel Jurafsky and James H. Martin, <a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing</a> — language models and transformers.</li>
+      <li>Long Ouyang et al., <a href="https://arxiv.org/abs/2203.02155">Training language models to follow instructions with human feedback</a>.</li>
+      <li>Mrinank Sharma et al., <a href="https://arxiv.org/abs/2310.13548">Towards Understanding Sycophancy in Language Models</a>.</li>
+      <li>UNESCO, <a href="https://unesdoc.unesco.org/ark:/48223/pf0000386693">Guidance for generative AI in education and research</a>.</li>
+      <li>OpenAlex, <a href="https://api.openalex.org/works?filter=primary_topic.subfield.id:1702,publication_year:2025&amp;group-by=type&amp;per-page=100">2025 AI publication count query</a>.</li>
+    </ol>
+  </section>
+
+  <footer>These prompts are starting points, not proof that any particular answer is correct.</footer>
+</main>
+<script>
+  document.querySelectorAll('[data-copy]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      const text = document.getElementById(button.dataset.copy).textContent;
+      await navigator.clipboard.writeText(text);
+      const old = button.textContent;
+      button.textContent = 'Copied';
+      setTimeout(() => { button.textContent = old; }, 1200);
+    });
+  });
+</script>
+</body>
+</html>

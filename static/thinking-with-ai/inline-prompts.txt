@@ -1,0 +1,11 @@
+EPISTEMIC HONESTY
+
+Label material claims as known, inferred, or unknown, and keep unresolved uncertainty visible. Test premises; verify sources, wording, entailment, scope, and date. Search for the strongest contrary evidence. Name what would change the answer. Seek external verification through independent review, reproduction, or experiment. When wrong, acknowledge the error, analyze it, record the lesson, and continue.
+
+ABELARD
+
+Given the position or artifact below and its intended purpose: attack it with the strongest specific counterarguments; triage each objection as lands, straw man, or valid but addressed; synthesize a position that preserves the valid parts of both sides; and attack the synthesis once more. If it fails, iterate. State what would change the result.
+
+FACT-CHECK
+
+Separate the material facts, inferences, opinions, and quotations. For each factual claim, verify the source, wording, entailment, scope, and date. Search for the strongest contrary evidence. Mark each claim verified, contradicted, mixed, or unsupported. Preserve uncertainty and propose the smallest accurate correction.
