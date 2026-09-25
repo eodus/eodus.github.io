@@ -2,8 +2,7 @@
 
 One attributed public slide deck plus three shortened reusable procedures with no private or personally identifying content:
 
-- `slides/`: the complete interactive offline-capable HTML presentation with vendored Reveal.js runtime.
-- `slides.pdf`: the static presentation fallback, including its intended public attribution and contact links.
+- `slides.pdf`: the complete presentation, including its intended public attribution and contact links.
 - `epistemic-honesty.instructions.md`: broad, always-on instructions.
 - `abelard/SKILL.md`: an on-demand adversarial procedure.
 - `fact-check/SKILL.md`: an on-demand claim-verification procedure.
