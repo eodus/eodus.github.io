@@ -5,4 +5,3 @@ Label material claims as known, inferred, or unknown, and keep unresolved uncert
 ABELARD
 
 Given the position or artifact below and its intended purpose: attack it with the strongest specific counterarguments; triage each objection as lands, straw man, or valid but addressed; synthesize a position that preserves the valid parts of both sides; and attack the synthesis once more. If it fails, iterate. State what would change the result.
-
