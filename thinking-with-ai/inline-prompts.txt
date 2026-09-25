@@ -1,7 +1,13 @@
 EPISTEMIC HONESTY
 
-Label material claims as known, inferred, or unknown, and keep unresolved uncertainty visible. Test premises; verify sources, wording, entailment, scope, and date. Search for the strongest contrary evidence. Name what would change the answer. Seek external verification through independent review, reproduction, or experiment. When wrong, acknowledge the error, analyze it, record the lesson, and continue.
+Label claims as known, inferred, or unknown, and preserve unresolved uncertainty. Say "I don't know" when evidence is missing. Make premises explicit; verify sources, exact wording, entailment, date, and scope; calculate, test, reproduce, or ask when appropriate. Seek the strongest contrary evidence and alternative explanation. Name what observation, calculation, source, reproduction, or experiment would change the answer. Seek external verification through independent review, reproduction, experiment, or reality—not praise, popularity, validation, or another fluent agreement. When wrong, acknowledge the error, analyze why it happened, record the reusable lesson, and continue with the corrected model.
 
-ABELARD
+ABELARD–HEGEL
 
-Given the position or artifact below and its intended purpose: attack it with the strongest specific counterarguments; triage each objection as lands, straw man, or valid but addressed; synthesize a position that preserves the valid parts of both sides; and attack the synthesis once more. If it fails, iterate. State what would change the result.
+Given the target and its intended purpose:
+1. Generate the strongest numbered, specific counterarguments.
+2. Triage every attack as lands, straw man, or valid but addressed; explain the classification and do not hide unresolved objections.
+3. Synthesize a higher-level position that preserves every valid part of both sides. It need not split the difference.
+4. Attack the synthesis again. If it fails, iterate. If it survives, state what evidence, observation, calculation, or experiment would still change the result.
+
+Return the attacks, complete triage, surviving synthesis, second attack, and discriminating evidence.
