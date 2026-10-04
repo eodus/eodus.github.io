@@ -24,7 +24,7 @@
         <id>https://eodus.github.io/posts/llm-binarization-episode-01-dbf/</id>
         
         <content type="html" xml:base="https://eodus.github.io/posts/llm-binarization-episode-01-dbf/">&lt;!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: b7e57b5b --&gt;
+     Source revision: 4f02208c --&gt;
 &lt;h1 id=&quot;introduction&quot; class=&quot;intro-toc-heading&quot;&gt;Introduction&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;strong&gt;Sasha Shlemov&lt;&#x2F;strong&gt;, with &lt;strong&gt;Drinkins, personal AI assistant&lt;&#x2F;strong&gt; ·
 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;eodus&#x2F;sign1-llama.cpp&quot;&gt;Runtime&lt;&#x2F;a&gt; · &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;eodus&#x2F;dbf-sign1&quot;&gt;Scripts and
@@ -880,7 +880,7 @@ Synchronization Examples&lt;&#x2F;em&gt;. Khronos Group, 2026. Available:
 &lt;p&gt;&lt;span class=&quot;csl-left-margin&quot;&gt;[17]
 &lt;&#x2F;span&gt;&lt;span class=&quot;csl-right-inline&quot;&gt;NVIDIA, &lt;em&gt;CUDA C++ Programming
 Guide&lt;&#x2F;em&gt;. NVIDIA Corporation, 2026. Available:
-&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;docs.nvidia.com&#x2F;cuda&#x2F;cuda-c-programming-guide&#x2F;&quot;&gt;https:&#x2F;&#x2F;docs.nvidia.com&#x2F;cuda&#x2F;cuda-c-programming-guide&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;docs.nvidia.com&#x2F;cuda&#x2F;cuda-programming-guide&#x2F;&quot;&gt;https:&#x2F;&#x2F;docs.nvidia.com&#x2F;cuda&#x2F;cuda-programming-guide&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div id=&quot;ref-gao2024lmeval&quot; class=&quot;csl-entry&quot;&gt;
 &lt;p&gt;&lt;span class=&quot;csl-left-margin&quot;&gt;[18]

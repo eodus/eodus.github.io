@@ -5,8 +5,49 @@
     <link rel="self" type="application/atom+xml" href="https://eodus.github.io/tags/working-practices/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://eodus.github.io"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-09-09T00:00:00+00:00</updated>
+    <updated>2026-10-04T00:00:00+00:00</updated>
     <id>https://eodus.github.io/tags/working-practices/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Thinking with AI at Meridian</title>
+        <published>2026-10-04T00:00:00+00:00</published>
+        <updated>2026-10-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://eodus.github.io/posts/thinking-with-ai-at-meridian/"/>
+        <id>https://eodus.github.io/posts/thinking-with-ai-at-meridian/</id>
+        
+        <content type="html" xml:base="https://eodus.github.io/posts/thinking-with-ai-at-meridian/">&lt;!-- Generated from the private blog backend. Do not edit directly.
+     Source revision: 4f02208c --&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;meridianlearning.world&#x2F;&quot;&gt;Meridian Learning Foundation&lt;&#x2F;a&gt; asked me to write something about
+the talk. I made 26 slides, so let us try the short version.&lt;&#x2F;p&gt;
+&lt;p&gt;On 25 September, I gave a talk called &lt;em&gt;Thinking with AI&lt;&#x2F;em&gt; to a room of young students.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;thinking-with-ai-at-meridian.jpg&quot; alt=&quot;Sasha Shlemov speaking beside a slide about responsibility and abstraction at Meridian Learning Foundation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I did not try to persuade them that AI is good or bad. We opened the hood: next-token prediction,
+instructions, control tokens, context, tools, and the boundary between the model that talks and the
+ordinary software that acts.&lt;&#x2F;p&gt;
+&lt;p&gt;Then we used AI to investigate AI. The students played yes-and-no with the question “Does AI help
+students learn?”, built the strongest cases on both sides, and looked for an observation that could
+distinguish them.&lt;&#x2F;p&gt;
+&lt;p&gt;The same chat interface can answer, teach, challenge, fact-check, brainstorm, or merely validate. If
+you do not choose what you actually want, the model will choose a plausible default for you.&lt;&#x2F;p&gt;
+&lt;p&gt;The slides and two reusable procedures from the talk are here:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;eodus.github.io&#x2F;thinking-with-ai&#x2F;&quot;&gt;Thinking with AI: slides and take-home materials&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Meridian deserves a separate note. It is a genuinely inclusive and safe space. Everyone, including
+me, was able to speak freely and openly, ask difficult questions, and disagree.&lt;&#x2F;p&gt;
+&lt;p&gt;Personal thanks to &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;oksana-stanevich-39557b22b&#x2F;&quot;&gt;Oksana Stanevich&lt;&#x2F;a&gt; for
+inviting me and making the talk happen, and to everyone in the room for the discussion.&lt;&#x2F;p&gt;
+&lt;p&gt;Meridian: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;meridianlearning.world&#x2F;&quot;&gt;official site&lt;&#x2F;a&gt; ·
+&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;school&#x2F;meridian-learning-foundation&#x2F;&quot;&gt;LinkedIn&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Give Your AI a Watch</title>
         <published>2026-09-09T00:00:00+00:00</published>
@@ -24,7 +65,7 @@
         <id>https://eodus.github.io/posts/give-your-ai-a-watch/</id>
         
         <content type="html" xml:base="https://eodus.github.io/posts/give-your-ai-a-watch/">&lt;!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 18692f72 --&gt;
+     Source revision: 4f02208c --&gt;
 &lt;h1 id=&quot;introduction&quot; class=&quot;intro-toc-heading&quot;&gt;Introduction&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;strong&gt;Sasha Shlemov&lt;&#x2F;strong&gt;, with &lt;strong&gt;Drinkins, personal AI assistant&lt;&#x2F;strong&gt; · &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;pull&#x2F;63987&quot;&gt;Zed PR&lt;&#x2F;a&gt; · &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;issues&#x2F;314377&quot;&gt;VS Code feature request&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR:&lt;&#x2F;strong&gt; Record each user message’s creation time and original UTC
@@ -82,9 +123,9 @@ this compact form:&lt;&#x2F;p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;VS Code:&lt;&#x2F;strong&gt; the earlier feature request remains at
 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;issues&#x2F;314377&quot;&gt;microsoft&#x2F;vscode#314377&lt;&#x2F;a&gt;.
-The &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;eodus.github.io&#x2F;blog&#x2F;patches&#x2F;vscode-time-context.patch&quot;&gt;implementation
-patch&lt;&#x2F;a&gt;
-adds configurable time, weekday, and timezone to VS Code’s existing
+The &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;eodus.github.io&#x2F;patches&#x2F;vscode-time-context.patch&quot;&gt;implementation
+patch&lt;&#x2F;a&gt; adds
+configurable time, weekday, and timezone to VS Code’s existing
 per-turn date context &lt;a href=&quot;https:&#x2F;&#x2F;eodus.github.io&#x2F;posts&#x2F;give-your-ai-a-watch&#x2F;#ref-shlemov2026vscodetimepatch&quot;&gt;[2]&lt;&#x2F;a&gt;. We
 rebased and verified it against VS Code &lt;code&gt;13fa06a39ca&lt;&#x2F;code&gt; and Copilot Chat
 0.66.0 on 2026-09-09.&lt;&#x2F;p&gt;

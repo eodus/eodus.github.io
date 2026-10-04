@@ -24,7 +24,7 @@
         <id>https://eodus.github.io/posts/give-your-ai-a-watch/</id>
         
         <content type="html" xml:base="https://eodus.github.io/posts/give-your-ai-a-watch/">&lt;!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 18692f72 --&gt;
+     Source revision: 4f02208c --&gt;
 &lt;h1 id=&quot;introduction&quot; class=&quot;intro-toc-heading&quot;&gt;Introduction&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;strong&gt;Sasha Shlemov&lt;&#x2F;strong&gt;, with &lt;strong&gt;Drinkins, personal AI assistant&lt;&#x2F;strong&gt; · &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zed-industries&#x2F;zed&#x2F;pull&#x2F;63987&quot;&gt;Zed PR&lt;&#x2F;a&gt; · &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;issues&#x2F;314377&quot;&gt;VS Code feature request&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR:&lt;&#x2F;strong&gt; Record each user message’s creation time and original UTC
@@ -82,9 +82,9 @@ this compact form:&lt;&#x2F;p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;VS Code:&lt;&#x2F;strong&gt; the earlier feature request remains at
 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;vscode&#x2F;issues&#x2F;314377&quot;&gt;microsoft&#x2F;vscode#314377&lt;&#x2F;a&gt;.
-The &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;eodus.github.io&#x2F;blog&#x2F;patches&#x2F;vscode-time-context.patch&quot;&gt;implementation
-patch&lt;&#x2F;a&gt;
-adds configurable time, weekday, and timezone to VS Code’s existing
+The &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;eodus.github.io&#x2F;patches&#x2F;vscode-time-context.patch&quot;&gt;implementation
+patch&lt;&#x2F;a&gt; adds
+configurable time, weekday, and timezone to VS Code’s existing
 per-turn date context &lt;a href=&quot;https:&#x2F;&#x2F;eodus.github.io&#x2F;posts&#x2F;give-your-ai-a-watch&#x2F;#ref-shlemov2026vscodetimepatch&quot;&gt;[2]&lt;&#x2F;a&gt;. We
 rebased and verified it against VS Code &lt;code&gt;13fa06a39ca&lt;&#x2F;code&gt; and Copilot Chat
 0.66.0 on 2026-09-09.&lt;&#x2F;p&gt;

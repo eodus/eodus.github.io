@@ -87,6 +87,7 @@
     .featured-post { padding: 0; overflow: hidden; }
     .featured-image { display: block; background: #0b1220; }
     .featured-image img { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 627; object-fit: cover; }
+    .post-content img { display: block; max-width: 100%; height: auto; margin: 1.5rem auto; }
     .featured-post .post-card-body { padding: 1.25rem 1.35rem 1.35rem; }
     .site-footer { max-width: 720px; margin: 4rem auto 1rem; padding-top: 1.25rem; border-top: 1px solid #e5e7eb; color: #6e7781; font-size: 0.85rem; }
     .site-footer p { margin: 0; text-align: right; }
@@ -141,7 +142,7 @@
     </details>
     
     <div class="post-content"><!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 18692f72 -->
+     Source revision: 4f02208c -->
 <h1 id="introduction" class="intro-toc-heading">Introduction</h1>
 <p><strong>Sasha Shlemov</strong>, with <strong>Drinkins, personal AI assistant</strong> · <a rel="external" href="https://github.com/zed-industries/zed/pull/63987">Zed PR</a> · <a rel="external" href="https://github.com/microsoft/vscode/issues/314377">VS Code feature request</a></p>
 <p><strong>TL;DR:</strong> Record each user message’s creation time and original UTC
@@ -199,9 +200,9 @@ this compact form:</p>
 <li>
 <p><strong>VS Code:</strong> the earlier feature request remains at
 <a rel="external" href="https://github.com/microsoft/vscode/issues/314377">microsoft/vscode#314377</a>.
-The <a rel="external" href="https://eodus.github.io/blog/patches/vscode-time-context.patch">implementation
-patch</a>
-adds configurable time, weekday, and timezone to VS Code’s existing
+The <a rel="external" href="https://eodus.github.io/patches/vscode-time-context.patch">implementation
+patch</a> adds
+configurable time, weekday, and timezone to VS Code’s existing
 per-turn date context <a href="https://eodus.github.io/posts/give-your-ai-a-watch/#ref-shlemov2026vscodetimepatch">[2]</a>. We
 rebased and verified it against VS Code <code>13fa06a39ca</code> and Copilot Chat
 0.66.0 on 2026-09-09.</p>

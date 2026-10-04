@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Sasha Shlemov - education</title>
+    <subtitle>Math, code, AI compression.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://eodus.github.io/tags/education/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://eodus.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-10-04T00:00:00+00:00</updated>
+    <id>https://eodus.github.io/tags/education/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Thinking with AI at Meridian</title>
+        <published>2026-10-04T00:00:00+00:00</published>
+        <updated>2026-10-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://eodus.github.io/posts/thinking-with-ai-at-meridian/"/>
+        <id>https://eodus.github.io/posts/thinking-with-ai-at-meridian/</id>
+        
+        <content type="html" xml:base="https://eodus.github.io/posts/thinking-with-ai-at-meridian/">&lt;!-- Generated from the private blog backend. Do not edit directly.
+     Source revision: 4f02208c --&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;meridianlearning.world&#x2F;&quot;&gt;Meridian Learning Foundation&lt;&#x2F;a&gt; asked me to write something about
+the talk. I made 26 slides, so let us try the short version.&lt;&#x2F;p&gt;
+&lt;p&gt;On 25 September, I gave a talk called &lt;em&gt;Thinking with AI&lt;&#x2F;em&gt; to a room of young students.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;thinking-with-ai-at-meridian.jpg&quot; alt=&quot;Sasha Shlemov speaking beside a slide about responsibility and abstraction at Meridian Learning Foundation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I did not try to persuade them that AI is good or bad. We opened the hood: next-token prediction,
+instructions, control tokens, context, tools, and the boundary between the model that talks and the
+ordinary software that acts.&lt;&#x2F;p&gt;
+&lt;p&gt;Then we used AI to investigate AI. The students played yes-and-no with the question “Does AI help
+students learn?”, built the strongest cases on both sides, and looked for an observation that could
+distinguish them.&lt;&#x2F;p&gt;
+&lt;p&gt;The same chat interface can answer, teach, challenge, fact-check, brainstorm, or merely validate. If
+you do not choose what you actually want, the model will choose a plausible default for you.&lt;&#x2F;p&gt;
+&lt;p&gt;The slides and two reusable procedures from the talk are here:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;eodus.github.io&#x2F;thinking-with-ai&#x2F;&quot;&gt;Thinking with AI: slides and take-home materials&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Meridian deserves a separate note. It is a genuinely inclusive and safe space. Everyone, including
+me, was able to speak freely and openly, ask difficult questions, and disagree.&lt;&#x2F;p&gt;
+&lt;p&gt;Personal thanks to &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;oksana-stanevich-39557b22b&#x2F;&quot;&gt;Oksana Stanevich&lt;&#x2F;a&gt; for
+inviting me and making the talk happen, and to everyone in the room for the discussion.&lt;&#x2F;p&gt;
+&lt;p&gt;Meridian: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;meridianlearning.world&#x2F;&quot;&gt;official site&lt;&#x2F;a&gt; ·
+&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;school&#x2F;meridian-learning-foundation&#x2F;&quot;&gt;LinkedIn&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
