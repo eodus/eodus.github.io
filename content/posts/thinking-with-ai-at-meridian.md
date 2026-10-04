@@ -13,7 +13,10 @@ card_image = "images/thinking-with-ai-at-meridian-card.jpg"
 card_alt = "Sasha Shlemov speaking beside a slide about responsibility and abstraction at Meridian Learning Foundation."
 +++
 <!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 4f02208c -->
+     Source revision: 9ab651a7 -->
+**Sasha Shlemov**, with **Drinkins, personal AI assistant** ·
+[Slides and materials](https://eodus.github.io/thinking-with-ai/)
+
 [Meridian Learning Foundation](https://meridianlearning.world/) asked me to write something about
 the talk. I made 26 slides, so let us try the short version.
 
