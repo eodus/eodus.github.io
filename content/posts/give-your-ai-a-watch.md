@@ -13,7 +13,7 @@ card_image = "images/give-your-ai-a-watch-card.png"
 card_alt = "Two timestamped messages flow into a watch: persisted time becomes AI context."
 +++
 <!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: 18692f72 -->
+     Source revision: 4f02208c -->
 # Introduction {.intro-toc-heading}
 
 **Sasha Shlemov**, with **Drinkins, personal AI assistant** · [Zed PR](https://github.com/zed-industries/zed/pull/63987) · [VS Code feature request](https://github.com/microsoft/vscode/issues/314377)
@@ -84,8 +84,8 @@ We implemented the same approach for Zed and VS Code:
 - **VS Code:** the earlier feature request remains at
   [microsoft/vscode#314377](https://github.com/microsoft/vscode/issues/314377).
   The [implementation
-  patch](https://eodus.github.io/blog/patches/vscode-time-context.patch)
-  adds configurable time, weekday, and timezone to VS Code’s existing
+  patch](https://eodus.github.io/patches/vscode-time-context.patch) adds
+  configurable time, weekday, and timezone to VS Code’s existing
   per-turn date context [\[2\]](#ref-shlemov2026vscodetimepatch). We
   rebased and verified it against VS Code `13fa06a39ca` and Copilot Chat
   0.66.0 on 2026-09-09.

@@ -10,6 +10,9 @@ build_search_index = false
 
 [markdown]
 
+[link_checker]
+skip_prefixes = ["https://www.linkedin.com/"]
+
 [extra]
 author = "Sasha Shlemov"
 

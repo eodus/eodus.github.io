@@ -13,7 +13,7 @@ card_image = "images/dbf-episode-01-card.png"
 card_alt = "DBF factorization and measured size, model quality, and Vulkan speed results."
 +++
 <!-- Generated from the private blog backend. Do not edit directly.
-     Source revision: b7e57b5b -->
+     Source revision: 4f02208c -->
 # Introduction {.intro-toc-heading}
 
 **Sasha Shlemov**, with **Drinkins, personal AI assistant** ·
@@ -1041,7 +1041,7 @@ Synchronization Examples*. Khronos Group, 2026. Available:
 <span class="csl-left-margin">\[17\]
 </span><span class="csl-right-inline">NVIDIA, *CUDA C++ Programming
 Guide*. NVIDIA Corporation, 2026. Available:
-<https://docs.nvidia.com/cuda/cuda-c-programming-guide/></span>
+<https://docs.nvidia.com/cuda/cuda-programming-guide/></span>
 
 </div>
 
