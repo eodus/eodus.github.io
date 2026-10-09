@@ -62,6 +62,12 @@ html.print-pdf .pdf-page {
   background: var(--ink-1) url("assets/pdf-background.png") center / cover no-repeat !important;
 }
 
+html.print-pdf .pdf-page:has(.title-slide),
+html.print-pdf .pdf-page:has(.disclaimer-slide) {
+  background: var(--ink-1) !important;
+}
+
+
 .reveal {
   color: var(--text);
   font-family: "Deck Inter", "Deck Hebrew", "Segoe UI", Arial, sans-serif;
@@ -137,15 +143,66 @@ html.print-pdf .pdf-page {
   letter-spacing: 0.035em;
 }
 
-.byline a {
+.title-footer {
+  position: absolute;
+  inset: 0;
+}
+
+.title-identity {
+  position: absolute;
+  top: 400px;
+  left: 68px;
+  text-align: left;
+}
+
+.title-identity .byline,
+.title-identity .title-venue {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.title-identity .byline {
+  margin-bottom: 9px;
+  color: var(--text);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.title-identity .title-venue {
+  font-size: 19px;
+}
+
+.title-links {
+  position: absolute;
+  right: 68px;
+  bottom: 52px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 9px;
+  color: var(--muted);
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  line-height: 1.15;
+  text-align: right;
+}
+
+.title-links a {
   color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.title-links a:hover,
+.title-links a:focus-visible {
+  color: var(--cyan-soft);
   text-decoration: none;
 }
 
-.byline a:hover,
-.byline a:focus-visible {
-  color: var(--cyan-soft);
-  text-decoration: none;
+.title-site {
+  margin-bottom: 8px;
 }
 
 .title-contact {
@@ -165,6 +222,7 @@ html.print-pdf .pdf-page {
   width: 23px;
   height: 23px;
 }
+
 
 .title-venue {
   margin: 8px 0 0;
@@ -258,11 +316,15 @@ html.print-pdf .pdf-page {
 }
 
 .title-rule {
-  width: 100%;
+  width: 360px;
   height: 4px;
-  margin: 160px 0 22px;
+  margin-top: 60px;
   border-radius: 4px;
-  background: linear-gradient(90deg, var(--cyan), var(--violet), transparent 85%);
+  background: linear-gradient(90deg, var(--cyan), var(--violet), transparent 92%);
+}
+
+.closing-questions-slide {
+  overflow: visible !important;
 }
 
 .ambient-circle {
@@ -2962,13 +3024,18 @@ section[data-slide-id="dead-spiral"] h2 {
 
 .honesty-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
   column-gap: 14px;
-  row-gap: 28px;
+  row-gap: 36px;
 }
 .honesty-grid .honesty-item {
+  display: grid;
   min-height: 118px;
   padding: 14px 18px;
-  justify-content: center;
+  grid-template-rows: auto 49px;
+  align-content: center;
+  justify-content: stretch;
+  justify-items: start;
 }
 .honesty-grid .honesty-item strong { font-size: 17px; }
 .honesty-grid .honesty-item span { margin-top: 8px; font-size: 16px; line-height: 1.28; }
