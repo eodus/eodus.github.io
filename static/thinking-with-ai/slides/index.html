@@ -29,7 +29,6 @@
   <script>
     const deckConfig = Object.freeze({
       showTitleSlideNumber: false,
-      animationsEnabled: new URLSearchParams(window.location.search).has('animate'),
     });
     window.deckConfig = deckConfig;
     document.documentElement.classList.toggle('hide-title-slide-number', !deckConfig.showTitleSlideNumber);
@@ -88,13 +87,10 @@
       slideNumber: formatSlideNumber,
       showSlideNumber: 'all',
       center: false,
-      fragments: deckConfig.animationsEnabled,
-      transition: deckConfig.animationsEnabled ? 'fade' : 'none',
-      transitionSpeed: 'fast',
-      backgroundTransition: deckConfig.animationsEnabled ? 'fade' : 'none',
-      autoAnimate: deckConfig.animationsEnabled,
-      autoAnimateEasing: 'ease-out',
-      autoAnimateDuration: 0.65,
+      fragments: false,
+      transition: 'none',
+      backgroundTransition: 'none',
+      autoAnimate: false,
       pdfSeparateFragments: false,
       pdfMaxPagesPerSlide: 1,
       plugins: [RevealMarkdown, RevealZoom]
