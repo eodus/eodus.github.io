@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 140" role="img" aria-labelledby="title desc">
+  <title id="title">Unrolling research spiral</title>
+  <desc id="desc">A trajectory returns around the same center while widening toward new evidence and a broader field of view.</desc>
+  <defs>
+    <linearGradient id="research-gradient" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="0.52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+
+  </defs>
+  <circle cx="90" cy="70" r="5" fill="#818CF8"/>
+  <path d="M 96.00 70.00 L 96.41 70.88 L 96.68 71.86 L 96.79 72.94 L 96.73 74.08 L 96.48 75.24 L 96.02 76.41 L 95.37 77.55 L 94.51 78.63 L 93.46 79.60 L 92.22 80.43 L 90.82 81.10 L 89.27 81.58 L 87.61 81.83 L 85.88 81.84 L 84.10 81.58 L 82.31 81.06 L 80.57 80.26 L 78.90 79.18 L 77.36 77.83 L 75.99 76.24 L 74.83 74.41 L 73.91 72.38 L 73.27 70.18 L 72.94 67.84 L 72.94 65.43 L 73.28 62.97 L 73.99 60.53 L 75.06 58.16 L 76.48 55.90 L 78.24 53.82 L 80.33 51.96 L 82.70 50.38 L 85.33 49.12 L 88.17 48.21 L 91.17 47.70 L 94.27 47.60 L 97.42 47.95 L 100.55 48.74 L 103.60 49.98 L 106.51 51.67 L 109.20 53.78 L 111.61 56.28 L 113.70 59.15 L 115.40 62.33 L 116.67 65.78 L 117.46 69.42 L 117.75 73.21 L 117.51 77.06 L 116.73 80.91 L 115.40 84.67 L 113.55 88.26 L 111.18 91.62 L 108.32 94.67 L 105.03 97.34 L 101.35 99.56 L 97.34 101.28 L 93.07 102.46 L 88.62 103.04 L 84.06 103.00 L 79.49 102.34 L 75.00 101.03 L 70.67 99.10 L 66.59 96.55 L 62.85 93.44 L 59.53 89.79 L 56.70 85.67 L 54.44 81.14 L 52.80 76.29 L 51.82 71.20 L 51.55 65.96 L 52.00 60.67 L 53.18 55.42 L 55.09 50.33 L 57.71 45.49 L 61.01 41.01 L 64.93 36.97 L 69.41 33.47 L 74.39 30.58 L 79.77 28.37 L 85.47 26.90 L 91.38 26.22 L 97.38 26.35 L 103.38 27.31 L 109.25 29.10 L 114.87 31.70 L 120.14 35.08 L 124.96 39.18 L 129.20 43.95 L 132.80 49.31 L 135.65 55.17 L 137.70 61.42 L 138.89 67.95 L 139.18 74.65 L 138.55 81.39 L 136.99 88.04 L 134.52 94.47 L 131.16 100.57 L 126.96 106.20 L 121.99 111.25 L 116.33 115.61 L 110.08 119.19 L 103.33 121.92 L 96.21 123.71 L 88.86 124.52 L 81.40 124.32 L 73.97 123.10 L 66.72 120.86 L 59.78 117.62 L 53.29 113.43 L 47.39 108.36 L 42.19 102.49 L 37.81 95.91 L 34.33 88.73 L 31.85 81.09 L 30.42 73.12 L 30.08 64.97 L 30.86 56.78 L 32.76 48.71 L 35.77 40.92 L 39.84 33.56" fill="none" stroke="url(#research-gradient)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 75.31 68.61 L 73.22 61.44 L 70.13 68.23" fill="none" stroke="#818CF8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 64.40 90.71 L 56.43 85.87 L 59.31 94.75" fill="none" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 86.25 120.87 L 75.42 123.75 L 85.50 128.63" fill="none" stroke="#34D399" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#7DD3FC">
+    <circle cx="156" cy="70" r="5"/>
+    <circle cx="137" cy="24" r="5" opacity=".86"/>
+    <circle cx="90" cy="8" r="5" opacity=".72"/>
+    <circle cx="39" cy="27" r="5" opacity=".58"/>
+    <circle cx="18" cy="92" r="5" opacity=".44"/>
+  </g>
+</svg>

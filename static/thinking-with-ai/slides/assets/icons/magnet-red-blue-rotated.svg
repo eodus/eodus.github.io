@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" role="img" aria-label="Diagonal horseshoe magnet with blue and red halves">
+  <!-- Twemoji magnet geometry, CC BY 4.0. Sparks removed; full shape recolored into two equal poles. -->
+  <defs>
+    <g id="magnet-shape">
+      <path d="M19.469 8.319l-3.854-4.671c-.355-.43-.991-.491-1.421-.136l-3.376 2.785 5.138 6.228 3.376-2.785c.431-.355.492-.991.137-1.421z"/>
+      <path d="M29.543 25.021l-6.228-5.138s-2.395 3.132-5.006 6.152c-1.986 2.298-6.093 2.215-8.406-.098s-2.395-6.42-.098-8.406c3.02-2.611 6.152-5.006 6.152-5.006l-5.138-6.228s-5.122 3.928-6.613 5.43c-5.468 5.508-5.487 14.418.001 19.906s14.398 5.468 19.906.001c1.502-1.491 5.43-6.613 5.43-6.613z"/>
+      <path d="M27.521 16.371l4.671 3.854c.43.355.491.991.136 1.421l-2.785 3.376-6.228-5.138 2.785-3.376c.355-.431.992-.492 1.421-.137z"/>
+    </g>
+    <clipPath id="upper-left"><path d="M0 0H36L0 36Z"/></clipPath>
+    <clipPath id="lower-right"><path d="M36 0V36H0Z"/></clipPath>
+  </defs>
+  <use href="#magnet-shape" fill="#3b82f6" clip-path="url(#upper-left)"/>
+  <use href="#magnet-shape" fill="#ef4444" clip-path="url(#lower-right)"/>
+</svg>
