@@ -1,7 +1,7 @@
 # Icon provenance
 
-- `paper-plane.svg`, `envelope.svg`, and `linkedin-in.svg` use Font Awesome Free 6.7.2 **Paper Plane**, **Envelope**, and
-  **LinkedIn In** geometry under CC BY 4.0. All are adapted to the deck's white text color. The paper plane deliberately replaces the
+- `globe.svg`, `paper-plane.svg`, `envelope.svg`, and `linkedin-in.svg` use Font Awesome Free 6.7.2 **Globe**,
+  **Paper Plane**, **Envelope**, and **LinkedIn In** geometry under CC BY 4.0. All are adapted to the deck's white text color. The paper plane deliberately replaces the
   circular Telegram brand mark with a larger, plain transport glyph; the linked `@shlemovalex` text supplies the Telegram identity.
   The LinkedIn brand glyph links to the verified public profile `linkedin.com/in/shlemovalex`. The complete upstream license is in
   `FONT-AWESOME-LICENSE.txt`.

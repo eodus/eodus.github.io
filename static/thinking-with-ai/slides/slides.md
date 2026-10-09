@@ -6,8 +6,18 @@
 
 <p class="subtitle">Thinking with AI: support, proof, and purpose</p>
 <div class="title-rule"></div>
-<p class="byline">Sasha Shlemov <a class="title-contact title-email" href="mailto:shlemovalex@gmail.com"><img src="assets/icons/envelope.svg" alt="">shlemovalex@gmail.com</a> <a class="title-contact title-telegram" href="https://t.me/shlemovalex" target="_blank" rel="noopener" aria-label="Telegram @shlemovalex"><img src="assets/icons/paper-plane.svg" alt="">@shlemovalex</a> <a class="title-contact title-linkedin" href="https://www.linkedin.com/in/shlemovalex/" target="_blank" rel="noopener" aria-label="LinkedIn profile of Alexander Shlemov"><img src="assets/icons/linkedin-in.svg" alt="">shlemovalex</a></p>
+<div class="title-footer">
+<div class="title-identity">
+<p class="byline">Sasha Shlemov</p>
 <p class="title-venue">25 September 2026 · Meridian Learning Foundation</p>
+</div>
+<div class="title-links">
+<a class="title-contact title-site" href="https://eodus.github.io/" target="_blank" rel="noopener"><img src="assets/icons/globe.svg" alt="">eodus.github.io</a>
+<a class="title-contact title-telegram" href="https://t.me/shlemovalex" target="_blank" rel="noopener" aria-label="Telegram @shlemovalex"><img src="assets/icons/paper-plane.svg" alt="">@shlemovalex</a>
+<a class="title-contact title-email" href="mailto:shlemovalex@gmail.com"><img src="assets/icons/envelope.svg" alt="">shlemovalex@gmail.com</a>
+<a class="title-contact title-linkedin" href="https://www.linkedin.com/in/shlemovalex/" target="_blank" rel="noopener" aria-label="LinkedIn profile of Alexander Shlemov"><img src="assets/icons/linkedin-in.svg" alt="">linkedin.com/in/shlemovalex</a>
+</div>
+</div>
 ---
 
 
