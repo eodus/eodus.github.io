@@ -58,6 +58,7 @@
 
 /* Reveal copies the live viewport gradient into every print page, producing a pathological PDF shading graph on Windows.
    Preserve the live HTML gradient, but compile PDF pages against one reusable raster background. */
+html.print-pdf .reveal-viewport,
 html.print-pdf .pdf-page {
   background: var(--ink-1) url("assets/pdf-background.png") center / cover no-repeat !important;
 }
