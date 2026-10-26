@@ -1,0 +1,34 @@
+[
+  {
+    "cell": "A-open",
+    "output_chars": 393,
+    "raw_bytes": 417,
+    "markdown_bytes": 730,
+    "raw_sha256": "35f411b09960943ceb91b8c07462adaadc336c90b9f8cb1582ed362aef720d63",
+    "markdown_sha256": "ba0964828be76a314ec7cc17dc1563871fbb73eb1f067740f8dca82fcf00d975"
+  },
+  {
+    "cell": "B-positive",
+    "output_chars": 297,
+    "raw_bytes": 321,
+    "markdown_bytes": 641,
+    "raw_sha256": "893ea5d2e5b54c0bc0e72508c800aca5b2e201afca35c724130173176843a0a0",
+    "markdown_sha256": "ee4281f2f0081811ecd5724bb62cd127d7d5ecd9c0665c9ca0d77e7946db4990"
+  },
+  {
+    "cell": "C-alarmist",
+    "output_chars": 1417,
+    "raw_bytes": 1441,
+    "markdown_bytes": 1926,
+    "raw_sha256": "b01415d79d220288ff557bd223e2b5bca9f69a3b251d0e370af2b23940392a79",
+    "markdown_sha256": "22ce6968e68a53e59073817a2532da9e0cd6376f0ed59411a5f9278cb911470b"
+  },
+  {
+    "cell": "D-mirror",
+    "output_chars": 779,
+    "raw_bytes": 803,
+    "markdown_bytes": 1181,
+    "raw_sha256": "471a963a801b075baabd2cd612a1b5e1e7c800b56ca82787b22f30ddfb84f280",
+    "markdown_sha256": "8397e911dd59c6510e78e87d1e0527d902b5238151c79273bc3fa331082b211b"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "cell": "01-multipositional",
+    "raw_bytes": 22794,
+    "markdown_bytes": 22684,
+    "output_chars": 22239,
+    "capture_status": "complete rendered response",
+    "raw_sha256": "7a092b5aad7225280217dc0fc7c34f943cc59098c6689dee08db7421a18e910d",
+    "markdown_sha256": "a91bf2e92f6105c33ef1d236fbbdc50fdf8673f65349c7c2a594aa3ee379a8dd"
+  },
+  {
+    "cell": "02-advocacy-for",
+    "raw_bytes": 21691,
+    "markdown_bytes": 21625,
+    "output_chars": 21107,
+    "capture_status": "complete rendered response",
+    "raw_sha256": "b5c5e51367bfc62e7be6d4dc34bb4cf2bc4ff07436b59b33a51b759f747ce404",
+    "markdown_sha256": "efe13dc4e6869b8cae4adfd7d80caa380098721b90774f9b5d30e4124c3420ad"
+  },
+  {
+    "cell": "03-advocacy-against",
+    "raw_bytes": 26146,
+    "markdown_bytes": 26060,
+    "output_chars": 25549,
+    "capture_status": "complete rendered response",
+    "raw_sha256": "2bad0b6af70a5e2d8dcd905ba87395edbffaf6d1674133286f849d2ea2e46931",
+    "markdown_sha256": "6d1a4f391eb92016e719206b006ead0fa69aef19fe5538d836d47d5945e99de8"
+  },
+  {
+    "cell": "04-thesis-first",
+    "raw_bytes": 16668,
+    "markdown_bytes": 16978,
+    "output_chars": 16447,
+    "capture_status": "complete rendered response",
+    "raw_sha256": "97eb99fc4ee8dbf68259dca84b77b360cb85c9ec4eb74465799f63855328d112",
+    "markdown_sha256": "9e067465e76716e8387b78e382ce280b4ca3e03947a86a7dc69eb5dc46151303"
+  },
+  {
+    "cell": "05-harsh-openai",
+    "raw_bytes": 39598,
+    "markdown_bytes": 39832,
+    "output_chars": 38946,
+    "capture_status": "complete rendered response",
+    "raw_sha256": "7971254d81ea16f6820ff3208de0828f01442cbc03699f612e4db1f2db1da144",
+    "markdown_sha256": "b364ca4575c44837b25de366a7ab7734e65615f25c4dd77956a29d0e9ae760fe"
+  },
+  {
+    "cell": "06-neutral-openai",
+    "raw_bytes": 43063,
+    "markdown_bytes": 43037,
+    "output_chars": 42240,
+    "capture_status": "analysis/synthesis complete; final reading list ended mid-entry; no continuation control",
+    "raw_sha256": "80dff4aa7c722c27b8a6f4f652e3276e3f3c9dd4a9668ffcdd31abc8bb704bdc",
+    "markdown_sha256": "4a75f88ddc424afecdab164ddca930723e343e0087cf27a400ced8d2e7d18c7c"
+  }
+]
