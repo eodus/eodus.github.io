@@ -1,0 +1,17 @@
+ABELARD–HEGEL
+
+Given the target and its intended purpose:
+1. Generate the strongest numbered, specific counterarguments.
+2. Triage every attack as lands, straw man, or valid but addressed; explain the classification and do not hide unresolved objections.
+3. Synthesize a higher-level position that preserves every valid part of both sides. It need not split the difference.
+4. Attack the synthesis again. If it fails, iterate. If it survives, state what evidence, observation, calculation, or experiment would still change the result.
+
+Return the attacks, complete triage, surviving synthesis, second attack, and discriminating evidence.
+
+MORGAN METRIC
+
+Name the idea, method, implementation, or tool under appeal. Define H₀: what would nothing, random, the simplest default, or Morgan sitting and purring produce? Compare the subject measurably against that baseline. If it rejects H₀, ship. If it fails to reject H₀, repair it or assign it to Morgan. If it is worse than Morgan, delete it.
+
+REFERENCE CHECK
+
+Name the exact reference or claim and the evidence standard required by its intended use: proposition or wording, language, author/work, edition or translator, audience, and what would count as verified. Build the source map from original or official primary material outward. Search while keeping a ledger of examined sources, identifiers, pages, versions, conflicts, negative searches, and unresolved gaps. Return the verified reference, text, or proposition with context and attribution, the sources actually examined, remaining uncertainty, and where to look next. If the required claim cannot be verified, say so and provide only a clearly labelled paraphrase or uncertain recollection.
